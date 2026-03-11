@@ -1,6 +1,6 @@
-streamlit
-ultralytics
-opencv-python-headless
+streamlit==1.32.2
+ultralytics==8.1.30
+opencv-python-headless==4.9.0.80
 pandas
 plotly
 streamlit-option-menu
