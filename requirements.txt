@@ -1,6 +1,9 @@
 streamlit
 ultralytics
-opencv-python
+opencv-python-headless
 pandas
 plotly
 streamlit-option-menu
+torch
+torchvision
+numpy<2
