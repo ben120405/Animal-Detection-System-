@@ -1,9 +1,9 @@
 streamlit==1.32.2
 ultralytics==8.1.30
-opencv-python-headless==4.9.0.80
-pandas==2.2.2
-plotly==5.20.0
-streamlit-option-menu==0.3.12
+opencv-python-headless==4.8.1.78
+pandas
+plotly
+streamlit-option-menu
 numpy<2
-torch==2.2.2
-torchvision==0.17.2
+torch
+torchvision
