@@ -6,6 +6,12 @@ import pandas as pd
 import plotly.express as px
 from streamlit_option_menu import option_menu
 
+# ---------------- PAGE CONFIG ----------------
+st.set_page_config(
+    page_title="Animal Detection System",
+    page_icon="🐾",
+    layout="wide"
+)
 # ---------------- SETTINGS ----------------
 MODEL_PATH = "models/animal_v2/weights/best.pt"
 CARNIVORES = {"lion", "tiger"}
@@ -15,13 +21,6 @@ def load_model():
     return YOLO(MODEL_PATH)
 
 model = load_model()
-
-# ---------------- PAGE CONFIG ----------------
-st.set_page_config(
-    page_title="Animal Detection System",
-    page_icon="🐾",
-    layout="wide"
-)
 
 # ---------------- CUSTOM CSS ----------------
 st.markdown(
