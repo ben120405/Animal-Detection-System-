@@ -3,3 +3,4 @@ dataset/
 runs/
 __pycache__/
 *.pyc
+detections.db
